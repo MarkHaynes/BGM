@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2015 by original authors @ fontello.com</metadata>
+<defs>
+<font id="custom-bgm" horiz-adv-x="1000" >
+<font-face font-family="custom-bgm" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="tick" unicode="&#xe800;" d="m1000 765l-610-784-260 304c0 3 1 22 11 42 14 28 39 43 74 43l142-106 34-26 27 32 497 580c4 0 23-1 42-11 29-14 43-39 43-74z m-106-218c29-60 46-126 46-197 0-243-197-440-440-440s-440 197-440 440 197 440 440 440c88 0 169-26 238-70l39 46c-79 53-174 84-277 84-276 0-500-224-500-500s224-500 500-500 500 224 500 500c0 90-24 175-66 248l-40-51z" horiz-adv-x="1000" />
+</font>
+</defs>
+</svg>

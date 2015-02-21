@@ -5,10 +5,32 @@ Description: BGM Wordpress Theme.
 Author: Pixe Locker
 Author URI: http://pixellocker.co.uk
 Version: V1
-
 */
 
 @import "compass";
+@import "mixins/_mixins";
 
 @import "variables/_colors";
-@import "variables/_typeography";
+@import "variables/_typography";
+@import "variables/_widths";
+
+@import "structure/_header.scss";
+@import "structure/_main.scss";
+@import "structure/_topnav.scss";
+@import "structure/_calltoaction.scss";
+@import "structure/_faster-quote.scss";
+@import "structure/_main-content.scss";
+@import "structure/_sub-content.scss";
+@import "structure/_footer.scss";
+@import "structure/_footernav.scss";
+
+
+
+@import "structure/_page.scss";
+@import "structure/_main-content-homepage.scss";
+@import "structure/_contact.scss";
+@import "structure/_home.scss";
+
+@import "structure/_sharing.scss";
+
+@import "structure/_wordpressCore.scss";

@@ -1,0 +1,11 @@
+footer {
+	background-color: $color__background-footer;
+
+	p {
+		@include font-size(0.7);
+		color: $color__text-white;
+		float: left;
+		padding: 10px 10px;
+		width: 50%;
+	}
+}

@@ -1,0 +1,63 @@
+body {
+	@include main-font;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+.inner-wrapper {
+	margin: 0 auto;
+	max-width: $width__max-width;
+	width: 96%;
+}
+
+@media screen and (min-width: 651px) {
+
+	.text-wrap-left {
+		float: left;
+	}
+	.text-wrap-right {
+		float: right;
+	}
+
+}
+
+@media screen and (max-width: 650px) {
+
+	.text-wrap-left {
+		
+	}
+	.text-wrap-right {
+		
+	}
+
+}
+
+a.button-link:link, a.button-link:visited  {
+	@include border-radius(3px);
+	color: #fff;
+	display: block;
+	margin: 10px auto;
+	max-width: 150px;
+	padding: 10px 15px;
+	text-decoration: none;
+}
+
+a.button-link:hover {
+	color: $color__text-light-grey;
+}
+
+a.button-link-blue {
+	background: $color__background-header;
+}
+
+.clearfix {
+  overflow: auto;
+  zoom: 1;
+}
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}

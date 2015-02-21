@@ -1,0 +1,10 @@
+section#main-content {
+	position: relative;
+	z-index: 100;
+	
+	h2.title {
+		color: $color__text-light-header;
+		padding: 20px 0px;
+		text-align: center;
+	}
+}

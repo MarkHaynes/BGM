@@ -1,0 +1,98 @@
+
+section#call-to-action {
+	background-image: url('images/background4.jpg');
+	background-repeat: no-repeat;
+	background-color: #121212;
+	min-height: 250px;
+	max-height: 500px;
+	padding: 30px 0;
+	width: 100%;
+
+		h1 {
+			@include font-size(2.8);
+			color: $color__text-white;
+			font-weight: 300;
+			margin: 0 auto;
+			
+			text-align: center;
+
+			span {
+				@include font-size(1.8);
+			}
+		}
+
+		p {
+			@include font-size(1.2);
+			color: $color__text-white;
+			font-style: italic;
+			margin: 0 auto;
+			padding: 10px 2%;
+			text-align: center;
+			width: 90%;
+		}
+}
+
+@media screen and (min-width: 801px) {
+	section#call-to-action {
+		background-size: 100%;
+	}
+}
+
+
+@media screen and (max-width: 800px) {
+	section#call-to-action {
+		background-size: cover;
+	}
+}
+
+@media screen and (min-width: 801px) {
+	form#form-callback {
+		width: 470px;
+		margin: 0 auto;
+
+		input[type=text], input[type=tel] {
+			@include font-size(1.1);
+			padding: 5px;
+		}
+		select {
+			@include font-size(2);
+			
+		}
+	}
+}
+
+@media screen and (max-width: 800px) {
+	form#form-callback {
+	width: 90%;
+	margin: 0 auto;
+
+		input[type=text], input[type=tel] {
+			@include font-size(1.1);
+			margin: 0 auto;
+			padding: 5px;
+			width: 90%;
+
+		}
+		select {
+			@include font-size(0.8);
+			margin: 0 auto;
+			width: 100%;
+		}
+	}
+}
+
+.btn-style {
+	@include font-size(1);
+	@include border-radius(3px);
+	background-color: $color__link;
+	border: 0px;
+	color: #fff;
+	display: block;
+	margin: 10px auto;
+	max-width: 200px;
+	padding: 10px 15px;			
+}
+
+.btn-style:hover {
+	background-color: $color__link-hover;
+}

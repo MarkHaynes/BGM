@@ -1,0 +1,70 @@
+form#form-rooms, form#form-price {
+	margin: 10px 0px;
+}
+
+@media screen and (max-width: 800px) {
+	form#form-rooms, form#form-price {
+		label {
+			@include font-size(1.2);
+			display: block;
+			margin: 0 auto;
+			width: 90%;
+		}
+
+		label.label-header {
+			font-weight: bold;
+		}
+
+		input {
+			display: block;
+			width: 90%;
+			margin: 10px auto;
+		}
+	}
+}
+
+article.service-wrap {
+	p {
+		padding: 10px 0px;
+	}
+	
+	h2.post-title {
+		padding: 20px 0px;
+
+		a:link, a:visited {
+			@include font-size(1.6);
+			color: $color__text-light-header;
+			text-decoration: none;
+		}
+	}
+}
+
+@media screen and (min-width: 601px) {
+	article.service-wrap {
+		float: left;
+		margin: 0px 2% 20px 2%;	
+		text-align: center;
+		width: 46%;
+
+		img {
+			max-width: 100%;
+			display: block;
+		}
+	}
+}
+
+
+@media screen and (max-width: 600px) {
+	article.service-wrap {
+		margin: 0px 2% 20px 2%;	
+		text-align: center;
+		width: 96%;
+
+		img {
+			margin: 0 auto;
+			max-width: 90%;
+			display: block;
+		}
+	}
+
+}

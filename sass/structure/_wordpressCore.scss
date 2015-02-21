@@ -1,0 +1,184 @@
+/* ==========================================================================
+   Wordpress Core Styling
+   ========================================================================== */
+
+.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter,
+div.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+.alignright {
+    margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+a img.alignright {
+    margin: 5px 0 20px 20px;
+}
+
+a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignleft {
+    margin: 5px 20px 20px 0;
+}
+
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+@media screen and (min-width: 600px) {
+
+    .alignright {
+        float: right;   
+    }
+
+    .alignleft {
+        float: left;
+    }
+
+    a img.alignright {
+        float: right;    
+    }
+
+    a img.alignleft {
+        float: left;
+    }
+}
+
+a:link, a:visited {
+    color: $color__link;
+    font-weight: bold;
+}
+
+a:hover {
+    color: $color__link-hover;
+}
+
+address, blockquote, code, dt, ins, pre, table {
+    @include font-size(1.2);
+}
+
+address {
+    display: block;
+    margin-bottom: 20px;
+    font-style: normal;
+    line-height: 20px;
+}
+
+blockquote {
+    padding: 0 0 0 15px;
+    margin: 0 0 20px;
+    border-left: 5px solid #eeeeee;
+}
+
+code {
+    padding: 2px 4px;
+    color: $color__link;
+    white-space: nowrap;
+    background-color: #f7f7f9;
+    border: 1px solid #e1e1e8;
+}
+
+dt {
+    font-weight: bold;
+    line-height: 30px;
+}
+
+ins {
+    background-color: rgba(254,255,0,0.68);
+    text-decoration: none;
+}
+
+pre {
+    display: block;
+    padding: 9.5px;
+    margin: 0 0 10px;
+    font-size: 13px;
+    line-height: 20px;
+    word-break: break-all;
+    word-wrap: break-word;
+    white-space: pre;
+    white-space: pre-wrap;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+table {
+    margin: 20px 0;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-collapse: separate;
+    border-left: 0;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+table th, table td {
+    padding: 8px;
+    border-top: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    vertical-align: top;
+    text-align: left;
+    line-height: 18px;
+}
+table thead:first-child tr:first-child th, table tbody:first-child tr:first-child th, table tbody:first-child tr:first-child td {
+    border-top: 0;
+}
+
+.wp-caption {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    max-width: 96%; /* Image does not overflow the content area */
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+
+.wp-caption.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 98.5%;
+    padding: 0;
+    width: auto;
+}
+
+.wp-caption p.wp-caption-text {
+    @include font-size(1);
+    line-height: 17px;
+    margin: 0;
+    padding: 0 4px 5px;
+}

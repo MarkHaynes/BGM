@@ -1,0 +1,55 @@
+article.post-page {
+
+	img {
+		max-width: 100%;
+		display: block;		
+	}
+	
+
+	h1.single-title {
+		@include font-size(2.6);
+		margin: 20px 0;
+		padding: 20px;
+		text-align: center;
+	}
+
+	h1 {
+		@include font-size(2.4);
+		padding: 10px 0px;
+	}
+	
+	h2 {
+		@include font-size(2.0);
+		padding: 10px 0px;
+	}
+	
+	h3 {
+		@include font-size(1.8);
+		padding: 10px 0px;
+	}
+	
+	h4 {
+		@include font-size(1.6);
+		padding: 5px 0px;
+	}
+	
+	h5 {
+		@include font-size(1.4);
+		padding: 5px 0px;		
+	}
+	
+	h6 {
+		@include font-size(1.2);
+		padding: 5px 0px;		
+	}
+
+	p {
+		@include font-size(1.2);
+	}
+}
+
+img.featured-image {
+	margin: 10px auto 0px auto;
+	max-width: 96%;
+	display: block;
+}

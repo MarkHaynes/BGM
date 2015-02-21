@@ -1,0 +1,73 @@
+header {
+	background-color: $color__background-header;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+
+	img {
+		float: left;
+	}
+
+	@media screen and (min-width: 801px) {
+
+		img.header-logo {
+			height: 70px;
+		}
+
+		p.tel {
+			@include font-size(1.6); 
+			color: #fff;
+			float: right;
+			line-height: 100px;
+			margin: 0px;
+		}
+
+		a.mobile-menu-link {
+			display: none;
+		}
+	}
+
+	@media screen and (max-width: 800px) {
+
+		p.tel {
+			display: none;
+		}
+
+		a.mobile-menu-link {
+			@include font-size(1.6); 
+			color: #fff;
+			float: right;
+			line-height: 70px;
+			margin: 0px;			
+		}
+
+		img.header-logo {
+			height: 50px;
+		}
+
+	}
+}
+
+@media screen and (min-width: 801px) {
+
+	header {
+		height: 100px;
+
+			img {
+				margin-top: 15px;
+			}
+	}
+}
+
+@media screen and (max-width: 800px) {
+
+	header {
+		height: 70px;
+
+			img {
+				margin-top: 10px;
+			}		
+	}
+}
+
+	

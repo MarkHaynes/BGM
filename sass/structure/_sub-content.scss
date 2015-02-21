@@ -1,0 +1,38 @@
+section#sub-content {
+	background: $color__background-subcontent;
+	text-align: center;
+	padding: 15px 0px;
+
+	h2 {
+		padding: 20px 0px;
+	}
+
+	p {
+		width: 70%;
+		margin: 0 auto;
+	}
+
+	a.button-link:link {
+		background-color: $color__background-light-black;
+	}
+
+	ul {
+		margin: 0px;
+		padding: 0px;
+		width: 100%;
+
+		li {
+			@include font-size(1.6);
+			line-height: 40px;  
+			list-style-type: none;
+		}
+	}
+
+	li:before { 
+		@include font-size(1.8);   
+	    font-family: 'custom-bgm';
+	    color: #528ecb;
+	    content: '\E800';
+	    margin:0 5px 0 -25px;
+	}
+}

@@ -1,5 +1,5 @@
 // Rem and px outputs
-@mixin font-size($value: 1) {
+@mixin font-size($value) {
 	font-size: ($value * 16) + px;
 	font-size: $value + rem;
 } 

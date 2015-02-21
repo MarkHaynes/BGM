@@ -1,0 +1,144 @@
+form#frmContact {
+	width: 90%;
+	margin: 0 auto 50px auto;
+
+	label {
+
+	}
+
+	input[type='text'], input[type='email'], input[type='tel']  {
+		width: 96%;
+		max-width: 400px;
+		padding: 2%;
+		margin: 5px auto;
+		display: block;
+	}
+
+	textarea {
+		width: 96%;
+		max-width: 400px;
+		height: 150px;
+		padding: 2%;
+		margin: 5px auto;
+		display: block;
+	}
+
+	input[type='submit'] {
+		min-width: 60px;
+		line-height: 38px;
+		padding: 0 15px;
+		font-size: 0.875em;
+		text-align: center;
+		-webkit-border-radius: 2px;
+		-moz-border-radius: 2px;
+		-ms-border-radius: 2px;
+		border: 2px solid #1b84c1;
+		border-radius: 2px;
+		display: block;
+		zoom: 1;
+		background-color: #1b84c1;
+		color: #ddd;
+		-webkit-transition: all 0.4s ease-in-out;
+		-mox-transition: all 0.4s ease-in-out;
+		-o-transition: all 0.4s ease-in-out;
+		transition: all 0.4s ease-in-out;
+		margin: 0 auto;
+	}
+
+	input[type='submit']:hover {
+		background-color: #5ab4e8;
+  		color: #fff;
+  		border: 2px solid #5ab4e8;
+	}
+
+	input[type="checkbox"] {
+	    display:none;
+	}
+	input[type="checkbox"] + label span {
+	    display:inline-block;
+	    width:38px;
+	    height:38px;
+	    margin:-2px 8px 0 0;
+	    vertical-align:middle;
+	    background:url(images/formsprite.png) left top no-repeat;
+	    cursor:pointer;
+	    text-indent: 40px;
+	}
+	input[type="checkbox"]:checked + label span {
+	    background:url(images/formsprite.png) -38px top no-repeat;
+	}
+
+	span {
+		padding-top: 6px;
+	}
+}
+
+ul.formError {
+	color: red;
+	width: 100%;
+	max-width: 600px;
+	margin: 0 auto 30px auto;
+	padding: 0;
+	text-align: center;
+}
+
+ul.formError li {
+		color: red;
+		font-weight: 400;
+		list-style-type: none;
+		margin: 5px 0;
+		padding: 0;
+}
+
+.contact-left, .contact-right {
+	
+	h2 {
+
+		font-size: 18px;
+		font-size: 1.8rem;
+		margin: 0 0 15px 0;
+		text-align: center;
+	}	
+}
+
+.contact-left {
+	width: 90%;
+	max-width: 500px;
+	margin: 0 auto;
+}
+
+.contact-right {
+	text-align: center;
+	width: 90%;
+	max-width: 400px;
+	margin: 0 auto;
+
+	ul {
+		margin: 0;
+		padding: 0;
+
+		text-align: center;
+
+		li {
+			list-style-type: none;
+		}
+
+	}
+}
+
+@media screen and (min-width: 800px) {
+	.contact-left {
+		float: left;
+		width: 50%;
+	}
+	.contact-right {
+		float: right;
+		width: 50%;
+
+	}
+}
+
+#gmap_canvas {
+	margin: 0 auto;
+	width: 300px;
+}
